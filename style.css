@@ -65,11 +65,18 @@ h1 {
 #start-button {
   background-color: #8f7a66;
   padding: 1em 2em;
+  margin-top: 20px;
   border: none;
   border-radius: 0.5em;
-  font-size: 1em;
+  font-size: 1.5em;
   letter-spacing: 0.2px;
   color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#start-button:hover{
+  background-color: #776e65;
+  color: #fff;
 }
 .hide {
   display: none;
